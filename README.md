@@ -1,7 +1,8 @@
 # RobustSL - Evaluation Scripts
 
-This repository houses a comprehensive Python environment dedicated to the evaluation of learning augmented dictionary called RobustSL which is published asa paper in ICML 2024.[[arxiv]](https://arxiv.org/html/2402.09687v1)
-Features
+This repository houses a comprehensive Python environment dedicated to the evaluation of learning augmented dictionary called RobustSL which is published asa paper in ICML 2024 [[arxiv]](https://arxiv.org/html/2402.09687v1).
+
+Features:
 - RobustSL Implementations: Contains implementations of robust and consistent dictionary of RobustSL.
 - Implementation of SOTA dictionaries: Including BST, AVL-Tree, RedBlack Tree, Knuth Optimal Tree, Splay Tree, and Learned-Treaps.
 - Synthetic data generator.
@@ -12,17 +13,21 @@ Features
 </p>
 
 
-## Implementation of your algorithm
-You can even evaluate your new designed dictionary with other SOTA dictionaries using this evaluator. For this task, create a class for your algorithm using the following interface:
+## Implementation of your dictionary
+You can even evaluate your new designed dictionary with other SOTA dictionaries using this evaluator. For this task, create a class for your dictionary using the following interface:
 ``` 
+from DS import *
+
 class NAME_OF_YOUR_DICTIONARY(DS):
+
     # if it supports insertion, otherwise skip it
     def insert(self, key, freq):
         pass
+		
     # if it supports deletion, otherwise skip it
     def delete(self, key):
         pass
-        
+		
     def search(self, key_Value, __splay_cost__=False):
         return None # founded object
 ```
