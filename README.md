@@ -1,6 +1,6 @@
 # RobustSL - Evaluation Scripts
 
-This repository houses a comprehensive Python environment dedicated to the evaluation of learning augmented dictionary called RobustSL which is published asa paper in ICML 2024 [[arxiv]](https://arxiv.org/html/2402.09687v1).
+This repository houses a comprehensive Python environment dedicated to the evaluation of skiplist based learning augmented dictionary called RobustSL which is published asa paper in ICML 2024 [[arxiv]](https://arxiv.org/html/2402.09687v1).
 
 Features:
 - RobustSL Implementations: Contains implementations of robust and consistent dictionary of RobustSL.
